@@ -1,0 +1,60 @@
+//variáveis das cores
+$ui-color-danger-light: #eb5151;
+$ui-color-danger: #e62121;
+$ui-color-danger-dark: #c11616;
+$black-2: #1f2d3d;
+$aco: #273444;
+$prata: #3c4858;
+$prata-2: #707c8c;
+$gray: #8492a6;
+$fumaca-extra-dark: #c0ccda;
+$neve-extra-dark: #e5e9f2;
+$neve-dark: #eff2f7;
+$neve: #f9fafc;
+$white: #ffffff;
+$text-link: #3a95e9;
+$text-link-2: #2648a1;
+$transparent: #00000000;
+
+$theme-colors: (
+  "danger-dark": $ui-color-danger-dark,
+  "danger-normal": $ui-color-danger,
+  "danger-light": $ui-color-danger-light,
+  "black-2": $black-2,
+  "aco": $aco,
+  "prata": $prata,
+  "prata-2": $prata-2,
+  "gray": $gray,
+  "fumaca-extra-dark": $fumaca-extra-dark,
+  "neve-extra-dark": $neve-extra-dark,
+  "neve-dark": $neve-dark,
+  "neve": $neve,
+  "blue-link": $text-link,
+  "blue-link-dark": $text-link-2,
+  "white": $white,
+);
+
+//Variáveis do espaçamento
+$spacer: 1rem;
+$spacers: (
+  "awe-16": $spacer * 1,
+  "awe-32": $spacer * 2,
+  "awe-64": $spacer * 4,
+);
+
+//Variáveis das fontes
+$font-sizes: (
+  16: 16px,
+  32: 32px,
+);
+
+//Variáveis do font-weight
+$font-weight-thin: 100;
+$font-weight-extra-light: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+$font-weight-black: 900;
